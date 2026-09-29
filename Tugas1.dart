@@ -33,10 +33,10 @@ void main() {
 
   print('\n3. Manipulasi string dengan membuat paragraph sederhana ');
 
-  String nama = 'Martin Grey';
-  int umur = 35;
-  double beratBadan = 83.5;
-  double tinggiBadan = 151;
+  String nama = 'Meijean';
+  int umur = 20;
+  double beratBadan = 82.5;
+  double tinggiBadan = 172;
 
   // Mengubah tinggi dari cm menjadi meter
   double tinggiMeter = tinggiBadan / 100;
