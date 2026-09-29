@@ -1,16 +1,9 @@
 void main() {
-  // ==========================================
-  // TUGAS 1: KARAKTERISTIK & TIPE DATA
-  // ==========================================
-
-  print('===== TUGAS 1 =====');
-
-  // 1. Penjumlahan 5 variabel dengan tipe data berbeda
-
-  int angka1 = 10;
+  print('1. Penjumalahan 5 Variable dengan tipe data berbeda \n');
+  int angka1 = 15;
   double angka2 = 20.5;
-  num angka3 = 5.5;
-  String angka4 = '15.75';
+  num angka3 = 10.5;
+  String angka4 = '17.75';
   bool angka5 = true;
 
   // Konversi String menjadi double
@@ -19,19 +12,13 @@ void main() {
   // Jika true, nilainya 100
   int nilaiAngka5 = angka5 ? 100 : 0;
 
-  double hasil = angka1 +
-      angka2 +
-      angka3 +
-      nilaiAngka4 +
-      nilaiAngka5;
+  double hasil = angka1 + angka2 + angka3 + nilaiAngka4 + nilaiAngka5;
 
   print('\n1. Penjumlahan 5 variabel');
   print('Hasil = $hasil');
 
 
-  // ==========================================
-  // 2. Luas dan keliling lingkaran
-  // ==========================================
+  print('\n 2. Menghitung luas dan keliling lingkaran dengan penerapan tipe data Final atau Const');
 
   final double phi = 3.14159;
   double r = 7;
@@ -44,10 +31,7 @@ void main() {
   print('Luas = ${luas.toStringAsFixed(2)} cm2');
   print('Keliling = ${keliling.toStringAsFixed(2)} cm');
 
-
-  // ==========================================
-  // 3. Manipulasi String dan menghitung BMI
-  // ==========================================
+  print('\n3. Manipulasi string dengan membuat paragraph sederhana ');
 
   String nama = 'Martin Grey';
   int umur = 35;
